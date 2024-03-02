@@ -5,7 +5,7 @@ import streamlit as st
 
 sns.set(style="dark")
 
-day_df  = pd.read_csv('https://raw.githubusercontent.com/ayuastari/proyek-analisis-data-dengan-python/main/dataset/day.csv')
+day_df  = pd.read_csv("https://raw.githubusercontent.com/ayuastari/proyek-analisis-data-dengan-python/main/Dashboard/day.csv")
 day_df.head()
 
 #Cleaning Data
